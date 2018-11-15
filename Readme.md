@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/MasterDetailFilterString/Form1.cs) (VB: [Form1.vb](./VB/MasterDetailFilterString/Form1.vb))
+* [Program.cs](./CS/MasterDetailFilterString/Program.cs) (VB: [Program.vb](./VB/MasterDetailFilterString/Program.vb))
+* [XtraReport1.cs](./CS/MasterDetailFilterString/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/MasterDetailFilterString/XtraReport1.vb))
+<!-- default file list end -->
 # How to implement a Master-Detail report by adjusting the FilterString property at runtime
 
 
