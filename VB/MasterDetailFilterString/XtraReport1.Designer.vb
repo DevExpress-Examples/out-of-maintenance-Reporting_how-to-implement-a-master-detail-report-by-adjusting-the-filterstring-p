@@ -1,6 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
-Namespace MasterDetailFilterString
+﻿Namespace MasterDetailFilterString
 	Partial Public Class XtraReport1
 		''' <summary>
 		''' Required designer variable.
@@ -121,7 +119,8 @@ Namespace MasterDetailFilterString
 			Me.DetailReport.DataMember = "Order Details"
 			Me.DetailReport.DataSource = Me.dataSet11
 			Me.DetailReport.Name = "DetailReport"
-'			Me.DetailReport.BeforePrint += New System.Drawing.Printing.PrintEventHandler(Me.DetailReport_BeforePrint);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.DetailReport.BeforePrint += new System.Drawing.Printing.PrintEventHandler(this.DetailReport_BeforePrint);
 			' 
 			' Detail1
 			' 
