@@ -1821,13 +1821,13 @@ Namespace MasterDetailFilterString.DataSet1TableAdapters
 		<System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>
 		Private Sub InitConnection()
 			Me._connection = New System.Data.OleDb.OleDbConnection()
-			Me._connection.ConnectionString = Global.MasterDetailFilterString.Properties.Settings.Default.nwindConnectionString
+			Me._connection.ConnectionString = My.Settings.Default.nwindConnectionString
 		End Sub
 
 		<System.Diagnostics.DebuggerNonUserCodeAttribute()>
 		<System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>
 		Private Sub InitCommandCollection()
-			Me._commandCollection = New System.Data.OleDb.OleDbCommand(0){}
+			Me._commandCollection = New System.Data.OleDb.OleDbCommand(0) {}
 			Me._commandCollection(0) = New System.Data.OleDb.OleDbCommand()
 			Me._commandCollection(0).Connection = Me.Connection
 			Me._commandCollection(0).CommandText = "SELECT        Orders.*" & vbCrLf & "FROM            Orders"
@@ -1876,7 +1876,7 @@ Namespace MasterDetailFilterString.DataSet1TableAdapters
 		<System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>
 		<System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>
 		Public Overridable Function Update(ByVal dataRow As System.Data.DataRow) As Integer
-			Return Me.Adapter.Update(New System.Data.DataRow() { dataRow})
+			Return Me.Adapter.Update(New System.Data.DataRow() {dataRow})
 		End Function
 
 		<System.Diagnostics.DebuggerNonUserCodeAttribute()>
@@ -2403,7 +2403,7 @@ Namespace MasterDetailFilterString.DataSet1TableAdapters
 		<System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>
 		Private Sub InitConnection()
 			Me._connection = New System.Data.OleDb.OleDbConnection()
-			Me._connection.ConnectionString = Global.MasterDetailFilterString.Properties.Settings.Default.nwindConnectionString
+			Me._connection.ConnectionString = My.Settings.Default.nwindConnectionString
 		End Sub
 
 		<System.Diagnostics.DebuggerNonUserCodeAttribute()>
