@@ -1,5 +1,5 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+﻿Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MasterDetailFilterString", "MasterDetailFilterString\MasterDetailFilterString.vbproj", "{F01B1388-80C2-4338-9746-9A5576205F8C}"
 EndProject
 Global

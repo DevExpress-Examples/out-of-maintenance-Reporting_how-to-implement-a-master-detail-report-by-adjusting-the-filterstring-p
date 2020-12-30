@@ -1,6 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
-Namespace MasterDetailFilterString
+﻿Namespace MasterDetailFilterString
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -35,7 +33,8 @@ Namespace MasterDetailFilterString
 			Me.simpleButton1.Size = New System.Drawing.Size(219, 23)
 			Me.simpleButton1.TabIndex = 0
 			Me.simpleButton1.Text = "Display a Report preview"
-'			Me.simpleButton1.Click += New System.EventHandler(Me.simpleButton1_Click);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
 			' 
 			' Form1
 			' 
